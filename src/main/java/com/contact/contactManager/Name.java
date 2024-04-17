@@ -72,7 +72,7 @@ public void insertLast(String value){
 // ## get value ##
 
 
-public boolean find(String value){
+public boolean get(String value){
     Node node =head;
     while(node != null){
         if(node.value == value){
